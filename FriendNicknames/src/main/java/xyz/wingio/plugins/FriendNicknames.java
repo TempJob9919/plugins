@@ -119,7 +119,7 @@ public class FriendNicknames extends Plugin {
     var clearOption = Utils.createCommandOption(ApplicationCommandType.SUBCOMMAND, "clear", "Clear a nickname", null, true, true, new ArrayList<>(), new ArrayList<>(), Arrays.asList(userOption), false);
 
     commands.registerCommand(
-      "nick",
+      "friend",
       "Modify a nickname for a particular user",
       Arrays.asList(setOption, clearOption),
       ctx -> {
